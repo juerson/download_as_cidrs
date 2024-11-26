@@ -1,0 +1,30 @@
+[package]
+name = "download_as_cidrs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+regex = "1.11.1"
+select = "0.6.0"
+csv = "1.3.1"
+clap = { version = "4.5.21", features = ["derive"] }
+ipnetwork = "0.20.0"
+
+# [[bin]]
+# name = "main"
+# path = "src/main.rs"
+
+# [[bin]]
+# name = "app1"
+# path = "test/main1.rs"
+
+# [[bin]]
+# name = "app2"
+# path = "test/main2.rs"
+
+# [[bin]]
+# name = "app3"
+# path = "test/main3.rs"
