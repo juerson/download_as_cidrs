@@ -3,7 +3,7 @@
 
 ### 操作对象
 
- - HTML的属性和元素内容 (bgp.he.net、bgp.tools)
+ - HTML的元素属性和元素内容 (bgp.he.net、bgp.tools)
  - JSON数据 (api.bgpview.io)
 
 ### 关键技术
